@@ -15,7 +15,7 @@ html * {
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --background-color: #fdf6e3;
+  --background-color: #000;
   --main-font: Lato, sans-serif;
   --main-font-size: 40px;
   --main-color: #657b83;
@@ -34,20 +34,20 @@ html * {
   --heading3-size: 1.55em;
   --heading4-size: 1em;
   --code-font: monospace;
-  --link-color: #268bd2;
-  --link-color-hover: #78b9e6;
+  --link-color: #8bc53f;
+  --link-color-hover: #8bc53f;
   --selection-background-color: #d33682;
   --selection-color: #fff; }
 
 .reveal-viewport {
-  background: #fdf6e3;
-  background-color: #fdf6e3; }
+  background: #000;
+  background-color: #000; }
 
 .reveal {
   font-family: "Lato", sans-serif;
   font-size: 40px;
   font-weight: normal;
-  color: #657b83; }
+  color: #fff; }
 
 .reveal ::selection {
   color: #fff;
@@ -74,7 +74,7 @@ html * {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #586e75;
+  color: #8bc53f;
   font-family: "League Gothic", Impact, sans-serif;
   font-weight: normal;
   line-height: 1.2;
@@ -250,18 +250,18 @@ html * {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #268bd2;
+  color: #8bc53f;
   text-decoration: none;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #78b9e6;
+  color: #8bc53f;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #1a6091; }
+  background: #8bc53f; }
 
 /*********************************************
  * Frame helper
@@ -274,25 +274,31 @@ html * {
   transition: all .15s linear; }
 
 .reveal a:hover .r-frame {
-  border-color: #268bd2;
+  border-color: #8bc53f;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #268bd2; }
+  color: #8bc53f; }
 
 /*********************************************
  * PROGRESS BAR
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #268bd2; }
+  color: #8bc53f; }
 
 /*********************************************
  * PRINT BACKGROUND
  *********************************************/
 @media print {
   .backgrounds {
-    background-color: #fdf6e3; } }
+    background-color: #000; } }
+
+
+
+    .rap-line p{
+      font-size: 2rem;
+    }
